@@ -97,14 +97,19 @@ nav a:nth-child(4) {
 }
 
 section {
-    padding: 15px 40px 20px 40px;
+    padding: 30px 100px 60px 100px;
     text-align: justify;
+    font-size: 18px;
 }
 
 section h1 {
     text-align: center;
     font-size: 36px;
     padding-bottom: 15px;
+}
+
+section ul {
+    margin: 10px 0 10px 40px;
 }
 
 .contact {
@@ -121,7 +126,6 @@ section h1 {
     background-color: var(--bg-color);
     height: auto;
     width: 200px;
-    /* margin-right: 10px; */
     color: #f1f1f1;
     border-radius: 10px;
     padding: 10px 0 10px 0;
@@ -148,6 +152,7 @@ section h1 {
 .contact div img {
     height: 120px;
     width: 120px;
+    border-radius: 5px;
 }
 
 .contact div .fa-github-square, .contact div .fa-linkedin{
